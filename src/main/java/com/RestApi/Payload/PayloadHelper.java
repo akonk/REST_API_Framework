@@ -19,12 +19,12 @@ public class PayloadHelper {
 
     private static final String BASE_URL = ConfigManager.getInstance().getString("baseUrl");
 
-    private static final String PORT = ConfigManager.getInstance().getString("port");
+   // private static final String PORT = ConfigManager.getInstance().getString("port");
 
 
     public PayloadHelper(){
         RestAssured.baseURI=BASE_URL;
-        RestAssured.port=Integer.parseInt(PORT);
+       // RestAssured.port=Integer.parseInt(PORT);
     }
 
     public  List<PojoModel> getAllUsers(){

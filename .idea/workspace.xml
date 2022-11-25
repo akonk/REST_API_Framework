@@ -4,13 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="802aca00-ae46-4ea7-95a8-ed09faf7da34" name="Changes" comment="PojoClass File Added.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/RestApi/Payload/PayloadHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/RestApi/Utils/ConfigManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/AllApiTests/TestGETUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="802aca00-ae46-4ea7-95a8-ed09faf7da34" name="Changes" comment="1st Test Added.">
+      <change afterPath="$PROJECT_DIR$/allure-results/03d7dee1-f390-4524-bef3-15dca44c60c4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/07995404-c9d8-43c9-8f79-cae9ef4e3d29-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/26dab9b1-700f-417a-a5d4-1d83019e55c3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2fef50a0-c189-4755-afad-e5a3efb404e7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/44a6db11-a138-4b20-a595-374859ab11ed-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/49988a55-e6f9-423b-871a-823342ea03b0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4d9427c7-0fcc-44f8-ae87-0ebf5d4f7b29-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/73ecde48-71c6-466e-8214-0a8c3c37ac98-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/77ed84dc-ac88-441c-802e-25f3dea18958-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a19146b7-9409-4ac2-9850-f677af065900-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ac438f92-71e0-455f-aa50-2e2e5a54bf2f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c2909076-8d03-4d12-b802-1d69f9282769-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cb46a355-bd22-43a0-9304-e5bdb2cc57e8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ccb3390f-7c0e-437e-b596-be5f5a77211f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d4e9f401-dcac-4af8-b81a-fe349278efba-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/daa3f77a-7d53-495e-9202-5f15f32f4d54-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resource/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RestApi/Payload/PayloadHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RestApi/Payload/PayloadHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/AllApiTests/TestGETUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/AllApiTests/TestGETUsers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +46,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2I1qnhOisDgHXqRMRGUqvTxHrvb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "project.structure.last.edited": "Modules",
@@ -104,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669384999332</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1st Test Added.">
+      <created>1669397901959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669397901959</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,10 +156,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Project Initiation." />
     <MESSAGE value="Configuration Done." />
     <MESSAGE value="EndPoints Created." />
     <MESSAGE value="PojoClass File Added." />
-    <option name="LAST_COMMIT_MESSAGE" value="PojoClass File Added." />
+    <MESSAGE value="1st Test Added." />
+    <option name="LAST_COMMIT_MESSAGE" value="1st Test Added." />
   </component>
 </project>

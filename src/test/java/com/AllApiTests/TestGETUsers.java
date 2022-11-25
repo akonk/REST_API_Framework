@@ -16,7 +16,7 @@ public class TestGETUsers {
 
     @BeforeClass
     public void inti(){
-
+        payloadHelper = new PayloadHelper();
     }
 
     @Test
