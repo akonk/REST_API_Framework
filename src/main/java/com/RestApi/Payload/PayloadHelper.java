@@ -7,12 +7,13 @@ import io.qameta.allure.internal.shadowed.jackson.core.type.TypeReference;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-
 import org.apache.http.HttpStatus;
 
 import java.lang.reflect.Type;
-import java.security.Key;
 import java.util.List;
+
+import static org.testng.Assert.assertEquals;
+
 
 public class PayloadHelper {
 
@@ -38,6 +39,27 @@ public class PayloadHelper {
 
         List<PojoModel> UserList =  response.as(type);
         return UserList;
+    }
+
+    public Response createUser(){
+
+        PojoModel pojoModel = new PojoModel();
+        pojoModel.setId(10);
+        pojoModel.setFirstName("Ajay");
+        pojoModel.setLastName("Prakash");
+        pojoModel.setEmail("Ajayp@yahoo.com");
+        pojoModel.setAvatar("https://reqres.in/");
+
+        Response response = RestAssured.given()
+                .contentType(ContentType.JSON)
+                .when()
+                .body(pojoModel)
+                .post(EndPoints.POST_USER_DATA)
+                .andReturn();
+
+        assertEquals(response.getStatusCode(),HttpStatus.SC_CREATED,"Created");
+        return response;
+
     }
 
 }
