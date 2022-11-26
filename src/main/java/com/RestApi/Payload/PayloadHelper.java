@@ -13,6 +13,7 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 
 public class PayloadHelper {
@@ -60,6 +61,42 @@ public class PayloadHelper {
         assertEquals(response.getStatusCode(),HttpStatus.SC_CREATED,"Created");
         return response;
 
+    }
+    public Response UpdateUser(){
+
+        PojoModel pojoModel = new PojoModel();
+        pojoModel.setId(2);
+        pojoModel.setFirstName("Rajesh");
+        pojoModel.setLastName("Sharma");
+        pojoModel.setEmail("Ajayp@yahoo.com");
+        pojoModel.setAvatar("https://reqres.in/");
+
+        Response response = RestAssured.given()
+                .contentType(ContentType.JSON)
+                .when()
+                .body(pojoModel)
+                .post(EndPoints.PATCH_USER_UPDATE)
+                .andReturn();
+
+        assertEquals(response.getStatusCode(),HttpStatus.SC_CREATED,"Updated");
+        return response;
+
+    }
+
+    public Response DeleteUser(Integer id){
+
+
+
+         Response response = RestAssured.given()
+                .contentType(ContentType.JSON)
+                 .queryParam("id",id)
+
+
+                .when()
+                 .delete(EndPoints.DELETE_USER)
+                 .andReturn();
+         assertTrue(response.getStatusCode()==  HttpStatus.SC_NO_CONTENT);
+         return response;
     }
 
 }
