@@ -5,7 +5,7 @@ This is a API Automation Framework. All Scripts are Written in Java Programming 
 REST- Assured java based library used in this Framework.
 
 
-## Technology Used
+## Technologies Used
 
 1) Java Programming Language
 2) Rest - Assured Library
