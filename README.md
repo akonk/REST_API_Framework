@@ -1,3 +1,9 @@
+# What is API ?
+
+An application programming interface is a way for two or more computer programs to communicate with each other. It is a type of software interface, offering a service to other pieces of software.
+
+![](https://www.guru99.com/images/2/090720_0532_WhatisanAPI1.png)
+
 
 # REST Based API Automation
 
